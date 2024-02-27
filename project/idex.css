@@ -1,0 +1,241 @@
+|*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: #1f242d;
+    color: gold;
+}
+
+hr {
+    border: dotted 3px;
+    border-bottom: none;
+}
+
+.navigator {
+    position: fixed;
+    top: 0;
+    padding: 20px 10px;
+    background-color: transparent;
+    align-items: center;
+    z-index: 100;
+    
+
+    
+}
+
+.li {
+    margin-left: 10px;
+    padding-left: 190%
+}
+
+.nav-link {
+   
+    font-family: 'Gill Sans';
+  
+    
+
+}
+
+.space a {
+    display: inline-block;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    
+}
+
+.nav-link:hover {
+    color: gold;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans';
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: gold;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.navbar-toggler {
+    background-color: rgb(8, 107, 102);
+}
+
+.space {
+    padding-left: 68%;
+}
+
+.hd {
+    padding: 10%; 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;   
+}
+
+.siwes {
+    animation: slideRight 1s ease forwards;
+}
+
+.poly {
+    animation: slideDown 2s ease-in-out forwards;
+}
+.uni {
+    animation: slideTop 2s ease-in-out forwards;
+}
+
+#EXPERIENCE {
+    background-color: darkgoldenrod;
+    color: #1f242d;
+    align-items: center; 
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-radius: 2%;  
+}
+
+.exp {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: h;
+    
+    
+}
+
+.exContent {
+    text-align: center;
+    justify-items: center;
+}
+
+.iphone {
+    text-align: center;
+}
+
+#LAUTECH {
+    text-align: center;
+    padding: 190px 70px 120px 70px;
+
+    
+}
+
+.lau-logo {
+    text-align: center;
+}
+
+.lau-btn:hover {
+    color: navajowhite;
+}
+
+#ACHIEVEMENT {
+    background-color: goldenrod;
+    color: #1f242d;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.head3 {
+    padding-top: 10%;
+}
+
+.ach {
+    margin-top: 100px;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer { 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-row-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: cadetblue;
+    text-shadow: 50%;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.about:hover {
+    color: yellow;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.contact:hover {
+    color: yellow;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.media:hover {
+    color: rgb(254, 254, 36);
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+
+
+/* ANIMATION */
+@keyframes slideRight {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
